@@ -3,6 +3,10 @@ import Help from './components/Help';
 import Contactus from './components/Contactus';
 import Firstcomponent from './components/Firstcomponent';
 import Secondcomponent from './components/Secondcomponent';
+import Thirdcomponent from './components/Thirdcomponent';
+import Fourthcomponent from './components/Fourthcomponent';
+import Fifthcomponent from './components/Fifthcomponent';
+import Sixthcomponent from './components/Sixthcomponent';
 
 function App() {
   return (
@@ -18,8 +22,14 @@ function App() {
        <Secondcomponent/>
        <Contactus/>
        <Help/>
+       <Thirdcomponent/>
+       <Fourthcomponent/>
+       <Fifthcomponent/>
+       <Sixthcomponent/>
     </div>
   );
 }
 
 export default App;
+
+// App.js is route component

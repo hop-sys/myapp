@@ -48,3 +48,11 @@
 .Help{
   background-color: darkcyan;
 }
+.Thirdcomponent{
+  background-color: rgb(154, 61, 154);
+  color: aliceblue;
+  padding: 5px;
+}
+.Fourthcomponent{
+  background-color: deepskyblue;
+}
