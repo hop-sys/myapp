@@ -5,7 +5,7 @@ const Fifthcomponent=() =>{
 
     const [number, setNumber] = useState(10);
     return(
-        <div className="Fifthcomponen">
+        <div className="Fifthcomponent">
             {/* Below we bind our value for number */}
             <h1>Welcome to my fifth component</h1>
             <h2>Current number is: {number}</h2>

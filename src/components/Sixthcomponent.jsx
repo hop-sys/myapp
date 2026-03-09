@@ -1,13 +1,13 @@
 import { useState } from "react";
 
 const Sixthcomponent =()=>{
-    const[weight, setNumber]=useState(50);
+    const[weight, setWeight]=useState(50);
     return(
         <div className="Sixthcomponent">
             <h1>Welcome to my sixth component</h1>
             <h2>Current weight is: {weight} kgs</h2>
 
-            <button onClick={ () => setNumber(55)}>Click to update weight</button>
+            <button onClick={ () => setWeight(55)}>Click to update weight</button>
         </div>
     )
 }
